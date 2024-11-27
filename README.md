@@ -61,7 +61,7 @@ This project explores how **multivariate deep learning (DL) models** can enhance
 1. Clone the repository:
    ```bash
    git clone https://github.com/ojhaha0514/Covid19PredictionDL.git
-   cd Covid19PredictionCompartment
+   cd Covid19PredictionDL
    ```
 
 2. Install dependencies:
