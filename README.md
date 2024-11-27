@@ -115,11 +115,12 @@ python code_multivariate_DL.py
 
 ## Authors
 
-- **Jooha Oh**^{1*}, **Zhe Liu**^{2*}, **Kyulhee Han**^2, **Taewan Goo**^2, **Hanbyul Song**^2, **Jiwon Park**^2
-- **Corresponding Author**^1: [Taesung Park](mailto:tspark@stats.snu.ac.kr)
-- {}^{1}Department of Statistics, Seoul National University, Seoul, Republic of Korea
-- {}^{2}Interdisciplinary Program in Bioinformatics, Seoul National University, Seoul, Republic of Korea
+- **Jooha Oh**<sup>1*</sup>, **Zhe Liu**<sup>2*</sup>, **Kyulhee Han**<sup>2</sup>, **Taewan Goo**<sup>2</sup>, **Hanbyul Song**<sup>2</sup>, **Jiwon Park**<sup>2</sup>
+- **Corresponding Author**<sup>1</sup>: [Taesung Park](mailto:tspark@stats.snu.ac.kr)
+- <sup>1</sup>Department of Statistics, Seoul National University, Seoul, Republic of Korea
+- <sup>2</sup>Interdisciplinary Program in Bioinformatics, Seoul National University, Seoul, Republic of Korea
 - *These authors contributed equally to this work.
+
 
 
 ---
