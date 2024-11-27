@@ -60,7 +60,7 @@ This project explores how **multivariate deep learning (DL) models** can enhance
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/ojhaha0514/Covid19PredictionCompartment.git
+   git clone https://github.com/ojhaha0514/Covid19PredictionDL.git
    cd Covid19PredictionCompartment
    ```
 
@@ -71,8 +71,8 @@ This project explores how **multivariate deep learning (DL) models** can enhance
 
 3. Run the scripts:
    - **DTW ranking**: `code_DTW_rank.py`
-   - **Multivariate DL models**: `code_multivariate_DL.py`
    - **Model tuning**: `code_tuning_DL.py`
+   - **Multivariate DL models**: `code_multivariate_DL.py`
 
 ---
 
@@ -84,17 +84,19 @@ Calculate similarity rankings of infection trends:
 python code_DTW_rank.py
 ```
 
+### Hyperparameter Tuning
+Perform automated tuning for DL models:
+```bash
+python code_tuning_DL.py
+```
+
 ### Train Deep Learning Models
 Train multivariate models with additional country data:
 ```bash
 python code_multivariate_DL.py
 ```
 
-### Hyperparameter Tuning
-Perform automated tuning for DL models:
-```bash
-python code_tuning_DL.py
-```
+
 
 ---
 
@@ -103,8 +105,8 @@ python code_tuning_DL.py
 ```
 .
 ├── code_DTW_rank.py        # DTW-based country ranking
-├── code_multivariate_DL.py # Deep Learning model training
 ├── code_tuning_DL.py       # Hyperparameter tuning
+├── code_multivariate_DL.py # Deep Learning model training
 ├── owid-covid-data.csv     # Preprocessed COVID-19 dataset
 └── results/                # Generated results and logs
 ```
@@ -113,16 +115,19 @@ python code_tuning_DL.py
 
 ## Authors
 
-- **Jooha Oh** (Primary Author, Seoul National University)
-- **Zhe Liu**, **Kyulhee Han**, **Taewan Goo**, **Hanbyul Song**, **Jiwon Park**
-- **Corresponding Author**: [Taesung Park](mailto:tspark@stats.snu.ac.kr)
+- **Jooha Oh**^{1*}, **Zhe Liu**^{2*}, **Kyulhee Han**^2, **Taewan Goo**^2, **Hanbyul Song**^2, **Jiwon Park**^2
+- **Corresponding Author**^1: [Taesung Park](mailto:tspark@stats.snu.ac.kr)
+- {}^{1}Department of Statistics, Seoul National University, Seoul, Republic of Korea
+- {}^{2}Interdisciplinary Program in Bioinformatics, Seoul National University, Seoul, Republic of Korea
+- *These authors contributed equally to this work.
+
 
 ---
 
 ## Acknowledgments
 
 - The code utilizes **PyTorch** and **Ray Tune** for model development and tuning.
-- Special thanks to **Seoul National University Bioinformatics Program** for support.
+- Publicly available data collected by Our World In Data were used in this study and can be found at following repository: [https://covid.ourworldindata.org]{https://covid.ourworldindata.org}.
 
 ---
 
