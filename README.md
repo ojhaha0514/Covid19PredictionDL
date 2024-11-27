@@ -19,9 +19,9 @@ This project explores how **multivariate deep learning (DL) models** can enhance
 ## Methods
 
 1. **Data Preprocessing**:
-   - Dataset: COVID-19 time series data with corrections for new cases.
+   - Dataset: OWID COVID-19 time series data with corrections for new cases.
    - Filtered for countries with populations ≥10 million.
-   - Time period: January 1, 2022 – July 31, 2022.
+   - Train Time period: January 1, 2022 – July 31, 2022.
 
 2. **Dynamic Time Warping (DTW)**:
    - Calculates similarity of infection trends between countries.
