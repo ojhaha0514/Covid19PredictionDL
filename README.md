@@ -1,5 +1,5 @@
 
-# Enhancing COVID-19 Forecasts Through Multivariate Deep Learning Models
+# Enhancing Deep Learning-based Time Series Forecasts Through Selective Multivariate Framework: A Case Study of COVID-19.
 
 ![Deep Learning](https://img.shields.io/badge/Deep%20Learning-PyTorch-blue)
 ![COVID-19](https://img.shields.io/badge/COVID--19-Time%20Series%20Prediction-green)
